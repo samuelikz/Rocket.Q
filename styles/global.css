@@ -25,6 +25,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh; /*Total da altura da tela*/
     /* width: 100vw; Total da Largura da tela */
     background: var(--background);
