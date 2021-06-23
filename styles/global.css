@@ -19,6 +19,8 @@ html{
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #eaecf2;
+
 
     /* 1rem = 16px (User Agent) calculator ex: 28px 28px/16px= 1.75rem */
     font-size: 62.5%; /* 10px */
@@ -93,6 +95,18 @@ button.outlined,
     background: var(--white);
     color: var(--blue);
     border: .2rem solid var(--blue);
+}
+
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
 }
 
 .content header{

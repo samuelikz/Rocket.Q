@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="styles/room.css">
+        <link rel="stylesheet" href="/styles/modal.css">
 
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -65,7 +66,7 @@
                                       <img src="/assets/avatar.svg" alt="Avatar">
                                   </div>
                                   <div class="question">
-                                      <p>Qual a diferença entre const, var e let no Javascript?</p>
+                                      <p>Qual a diferença entre const, var e let no Javascript? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dolore eaque placeat doloremque, rerum iusto temporibus mollitia aperiam facilis corrupti quasi culpa illum voluptatem itaque deserunt laudantium. Dolor, deserunt qui.</p>
                                   </div>
                             </div>
                             <div class="actions">
@@ -79,10 +80,44 @@
                                 </a>
                             </div>
                         </div>
+
+                        <div class="question-wrapper read">
+                            <div class="question-content">
+                                  <div class="user">
+                                      <img src="/assets/avatar.svg" alt="Avatar">
+                                  </div>
+                                  <div class="question">
+                                      <p>Qual a diferença entre const, var e let no Javascript?</p>
+                                  </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="delete">
+                                    <img src="/assets/trash.svg" alt="Excluir">
+                                    Excluir
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </main>
-        </div>    
+        </div>  
+        <!-- MODAL -->
+        <div class="modal-wrapper">
+            <div class="modal">
+                <h2>Excluir pergunta</h2>
+                <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+                <form action="#">
+                    <label class="sr-only" for-id="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Digite sua senha">
+                </form>
+
+                <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red">Sim, excluir</button>
+                </div>
+            </div>
+        </div>  
     </body>
 
 </html>

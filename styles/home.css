@@ -32,7 +32,7 @@ main .container{
 main h2{
     font-family: 'Poppins', sans-serif;
     color: var(--black);
-    font-size: clamp(20px, 5vw, 2.8rem);
+    font-size: clamp(20px, 5vw, 2.8rem); /*Configuração da fonte minima/ideal/maximo*/
     margin-bottom: 2.4rem;
 }
 
