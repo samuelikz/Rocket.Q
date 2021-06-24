@@ -4,7 +4,7 @@
   "description": "Projeto para gerenciar perguntas anonimas",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
