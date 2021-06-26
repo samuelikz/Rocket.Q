@@ -177,4 +177,15 @@
     .buttons{
         padding: 1.3rem;
     }
+    #question-form form footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #question-form textarea {
+        padding-bottom: 2.6rem;
+    }
+    #question-form form footer > div {
+        padding-bottom: 1.6rem;
+    }
 }
