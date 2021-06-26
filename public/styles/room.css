@@ -169,3 +169,12 @@
     line-height: 1.9rem;
 }
 
+@media (min-width: 300px) and (max-width: 560px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons{
+        padding: 1.3rem;
+    }
+}
