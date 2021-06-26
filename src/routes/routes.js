@@ -6,6 +6,7 @@ const roomController = require('../controllers/roomController')
 const route = express.Router()
 
 route.get('/', (req, res) => res.render('index',{page: 'enter-room'}))
+route.get('/error', (req, res) => res.render('index',{page: 'error'}))
 route.get('/create-pass', (req, res) => res.render("index", {page: 'create-pass'}))
 
 route.post('/create-room', roomController.create)

@@ -118,3 +118,26 @@ button.grey,
 .content header img{
     width: 16.7rem;
 }
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.error img{
+    padding: 1.5rem;
+}
+
+.error .button{
+    margin: 1.6rem;
+}
+
+.error p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
